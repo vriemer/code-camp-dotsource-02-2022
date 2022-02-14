@@ -18,13 +18,17 @@ The Source Code is written in HTML, CSS and JavaScript.
 * Description of basic functionality of internet (server - document - client)
 * Creation of basic template for html
 * Description of basic html elements and their attributes
+* Description of the differences between single and paired tags with examples
 * Usage & description of following tags:
     * `<!DOCTYPE html>`
     * `<html lang="de">`
-    * `<head>` - usage
-    * `<body>` - usage
+    * `<head>` usage
+    * `<title>` usage
+    * `<meta>` usage
+    * `<body>` usage
     * `<div>` with "name"- and "data-"-attributes
     * `<img>` with "alt"-attribute
+    * `<a>` with "href"-attribute
 * Provided documents
     * own presentation
     * Links to Learning Documents
