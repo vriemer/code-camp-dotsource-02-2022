@@ -9,6 +9,12 @@ Vladislav Riemer <v.riemer@dotsource.de>
 ### Date
 14.02.2022 - 18.02.2022
 
+### Technologies
+* HTML5
+* CSS3
+* JS EcmaScript 6
+* Bootstrap 5.1
+
 ### Source Code
 The Source Code is written in HTML, CSS and JavaScript.
 
@@ -30,6 +36,6 @@ The Source Code is written in HTML, CSS and JavaScript.
     * `<img>` with "alt"-attribute
     * `<a>` with "href"-attribute
 * Provided documents
-    * own presentation
+    * own presentations
     * Links to Learning Documents
     * Link to repository
