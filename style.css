@@ -90,6 +90,21 @@ footer {
     background-color: grey;
 }
 
+.language__percentage--custom {
+    position: relative;
+    height: 40px;
+    z-index: 2;
+    line-height: 2.3;
+    text-align: center;
+    color: white;
+}
+
+.language__percentage-value--not-full {
+    position: relative;
+    top: -40px;
+    width: 75%;
+}
+
 .language__percentage-value {
     display: block;
     height: 100%;
