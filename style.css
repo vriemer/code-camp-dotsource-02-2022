@@ -90,12 +90,14 @@ footer {
     background-color: grey;
 }
 
-.language__percentage--custom {
+.language__item:nth-child(3) .language__percentage {
     position: relative;
-    height: 40px;
-    z-index: 2;
-    line-height: 2.3;
-    text-align: center;
+}
+
+.language__percentage--custom {
+    position: absolute;
+    left: 46%;
+    line-height: 2.5;
     color: white;
 }
 
@@ -114,11 +116,17 @@ footer {
     text-align: center;
 }
 
-.language .language__item:nth-of-type(1) .language__percentage-value {}
+.language .language__item:nth-of-type(1) .language__percentage-value {
+    background-color: #F46036;
+}
 
-.language .language__item:nth-of-type(2) .language__percentage-value {}
+.language .language__item:nth-of-type(2) .language__percentage-value {
+    background-color: #2e294e;
+}
 
-.language .language__item:nth-of-type(3) .language__percentage-value {}
+.language .language__item:nth-of-type(3) .language__percentage-value {
+    background-color: #1B998B;
+}
 
 /** --- HOBBY -------------- */
 .hobby {}
