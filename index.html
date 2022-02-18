@@ -2,100 +2,157 @@
 <html lang="de">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     </head>
     <body>
-        <h1>Portfolio Vladislav Riemer</h1>
-        <div class="container">
-            <div class="row profile">
-                <div class="col-md">
-                    <img src="./../basic_code_camp_02_2022/portfolio/profilbild.jpg" alt="profilbild">
-                </div>
-                <div class="col-md">
-                    Name: Vladislav Riemer<br>
-                    Geburtstag: 10.03.1995<br>
-                    Adresse: Goethestraße 1, 07743 Jena<br>
-                    Telefon: 03641 7979 000<br>
-                    E-Mail: v.riemer@dotsource.de<br>
-                </div>
-            </div>
-
-            <hr>
-            <h2>Timeline</h2>
-            <div class="row timeline">
-                <div class="col">
-                    <ul>
-                        <li>08/2011 - 03/2014</li>
-                        Ausbildung Technischer Assistent für Informatik
-                        <li>08/2011 - 03/2014</li>
-                        Ausbildung Technischer Assistent für Informatik
-                        <li>08/2011 - 03/2014</li>
-                        Ausbildung Technischer Assistent für Informatik
-                    </ul>
-                </div>
-            </div>
-
-            <hr>
-            <h2>Knowledge Base</h2>
-            <div class="row knowledge-base">
-                <div class="col">HTML/CSS</div>
-                <div class="col">JavaScript</div>
-                <div class="col">Wordpress</div>
-                <div class="col">Salesforce Commerce Cloud</div>
-            </div>
-
-            <hr>
-            <h2>Languages</h2>
-            <div class="row languages">
-                <div class="col">
-                    <div>Deutsch</div>
-                    <div>Englisch</div>
-                    <div>Russisch</div>
-                </div>
-            </div>
-
-            <hr>
-            <h2>Hobbies</h2>
-            <div class="row hobbies">
-                <div class="col">
-                    <div>Fahrrad</div>
-                    <div>Gitarre</div>
-                    <div>Saxophon</div>
-                    <div>Fotografie</div>
-                </div>
-            </div>
-
-            <hr>
-            <h2>Contact</h2>
-            <div class="row contact">
-                <div class="col">
-                    <div>
-                        E-Mail:
-                        <a href="mailto:v.riemer@dotsource.de">
-                            v.riemer@dotsource.de
-                        </a>
+        <div class="main-container">
+            <h1 class="mt-4 mx-4">Portfolio</h1>
+            <div class="container">
+                <div class="row profile">
+                    <div class="col-md">
+                        <img class="profile__image" src="profilbild.jpg" alt="profilbild">
                     </div>
-                    <div>
-                        LinkedIn:
-                        <a href="https://www.linkedin.com/in/vladislav-riemer/">
-                            /in/vladislav-riemer/
-                        </a>
+                    <div class="col-md profile__col">
+                        <span class="profile__col-inner">
+                            <span class="profile__description">Name:</span>
+                            <span class="profile__content">Vladislav Riemer</span>
+                        </span>
+                        <span class="profile__col-inner">
+                            <span class="profile__description">Geburtstag:</span>
+                            <span class="profile__content">10.03.1995</span>
+                        </span>
+                        <span class="profile__col-inner">
+                            <span class="profile__description">Adresse:</span>
+                            <span class="profile__content">Goethestraße 1, 07743 Jena</span>
+                        </span>
+                        <span class="profile__col-inner">
+                            <span class="profile__description">Telefon:</span>
+                            <span class="profile__content">03641 7979 000</span>
+                        </span>
+                        <span class="profile__col-inner">
+                            <span class="profile__description">E-Mail:</span>
+                            <span class="profile__content">v.riemer@dotsource.de</span>
+                        </span>
                     </div>
-                    <div>
-                        Xing:
-                        <a href="https://www.xing.com/profile/Vladislav_Riemer/cv">
-                            /profile/Vladislav_Riemer/cv
-                        </a>
+                </div>
+
+                <hr>
+                <h2>Timeline</h2>
+                <div class="row timeline">
+                    <div class="col">
+                        <ul class="timeline__list">
+                            <li class="timeline__list-item">08/2011 - 03/2014</li>
+                            <span class="timeline__list-item-text">
+                                Ausbildung "Technischer Assistent für Informatik" TÜV Rheinland
+                            </span>
+                            <li class="timeline__list-item">09/2014 - 12/2016</li>
+                            <span class="timeline__list-item-text">
+                                Studium "Angewandte Informatik" FH Erfurt
+                            </span>
+                            <li class="timeline__list-item">01/2017 - 07/2017</li>
+                            <span class="timeline__list-item-text">
+                                Auslandsaufenthalt "Work & Travel" in London
+                            </span>
+                            <li class="timeline__list-item">09/2014 - 12/2016</li>
+                            <span class="timeline__list-item-text">
+                                Ausbildung "Fachinformatiker für Anwendungswentwicklung" IronShark GmbH
+                            </span>
+                            <li class="timeline__list-item">01/2017 - 07/2017</li>
+                            <span class="timeline__list-item-text">
+                                Software Engineer dotSource GmbH
+                            </span>
+                        </ul>
                     </div>
-                    <div>
-                        Phone:
-                        <a href="tel:+4936417979000">
-                            +4936417979000
-                        </a>
+                </div>
+
+                <hr>
+                <h2>Knowledge Base</h2>
+                <div class="row knowledge-base">
+                    <div class="knowledge-base__item">HTML/CSS</div>
+                    <div class="knowledge-base__item">JavaScript</div>
+                    <div class="knowledge-base__item">Wordpress</div>
+                    <div class="knowledge-base__item">Salesforce Commerce Cloud</div>
+                </div>
+
+                <hr>
+                <h2>Languages</h2>
+                <div class="row language">
+                    <div class="col-md-4 language__item">
+                        Deutsch
+                        <div class="language__percentage">
+                            <span class="language__percentage-value" style="width: 100%;">100%</span>
+                        </div>
                     </div>
+
+                    <div class="col-md-4 language__item">
+                        Englisch
+                        <div class="language__percentage">
+                            <span class="language__percentage-value" style="width: 100%;">100%</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 language__item">
+                        Russisch
+                        <div class="language__percentage">
+                            <div class="language__percentage--custom">75%</div>
+                            <div class="language__percentage-value" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <h2>Hobbies</h2>
+                <div class="row hobby">
+                    <div class="col">
+                        <div class="hobby__image">
+                            <img src="https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Guitar">
+                        </div>
+                        <div class="hobby__image">
+                            <img src="https://images.pexels.com/photos/45243/saxophone-music-gold-gloss-45243.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Saxophone">
+                        </div>
+                        <div class="hobby__image">
+                            <img src="https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Bicycle">
+                        </div>
+                        <div class="hobby__image">
+                            <img src="https://images.pexels.com/photos/1655817/pexels-photo-1655817.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Camera">
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <h2>Contact</h2>
+                <div class="row contact">
+                    <div class="col d-none d-md-block"></div>
+                    <div class="col contact__grid">
+                        <div class="contact__grid-item">
+                            E-Mail:
+                            <a class="contact__link" href="mailto:v.riemer@dotsource.de" target="_blank">
+                                v.riemer@dotsource.de
+                            </a>
+                        </div>
+                        <div class="contact__grid-item">
+                            LinkedIn:
+                            <a class="contact__link" href="https://www.linkedin.com/in/vladislav-riemer/" target="_blank">
+                                /in/vladislav-riemer/
+                            </a>
+                        </div>
+                        <div class="contact__grid-item">
+                            XING:
+                            <a class="contact__link" href="https://www.xing.com/profile/Vladislav_Riemer/cv" target="_blank">
+                                /profile/Vladislav_Riemer/cv
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col d-none d-md-block"></div>
                 </div>
             </div>
         </div>
+        <footer>
+            &copy; by dotSource GmbH 2022
+        </footer>
     </body>
 </html>
