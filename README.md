@@ -19,7 +19,7 @@ Vladislav Riemer <v.riemer@dotsource.de>
 The Source Code is written in HTML, CSS and JavaScript.
 
 ### Temporary Link to provided documents (Link available from 14.02.2022 - 18.02.2022)
-https://dotsourcems-my.sharepoint.com/:f:/g/personal/v_riemer_dotsource_de/EidE_bAmNnFDj43QIiPMH1gBrRZGg3MJaaoCUMiD0NcFvA
+https://drive.google.com/drive/folders/1fYV-D3_Un07k3uMeeNy5yFu15e9uXIST
 
 ## Timeline
 ### Day 1 (14.02.2022)
