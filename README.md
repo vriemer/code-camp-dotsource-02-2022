@@ -4,7 +4,7 @@
 The main goal of this project is to create a static CV-Template.
 
 ### Speaker
-Vladislav Riemer <v.riemer@dotsource.de>
+Vladislav Riemer v.riemer@dotsource.de
 
 ### Date
 14.02.2022 - 18.02.2022
@@ -18,7 +18,18 @@ Vladislav Riemer <v.riemer@dotsource.de>
 ### Source Code
 The Source Code is written in HTML, CSS and JavaScript.
 
-### Temporary Link to provided documents (Link available from 14.02.2022 - 18.02.2022)
+### HTML
+HTML is structured in Blocks. The blocks are arranged according to bootstrap default.
+
+#### CSS
+CSS is written from general to specific elements.
+Class naming relies on BEM (block element modifier) pattern.
+Structure is based on mobile first design. The default class properties are written for
+the smallest screen design.
+
+There is a media-query-rule added at the end. This happend to match the mobile-first pattern.
+
+### Link to provided documents
 https://drive.google.com/drive/folders/1fYV-D3_Un07k3uMeeNy5yFu15e9uXIST
 
 ## Timeline
