@@ -42,3 +42,25 @@ https://dotsourcems-my.sharepoint.com/:f:/g/personal/v_riemer_dotsource_de/EidE_
     * own presentations
     * Links to Learning Documents
     * Link to repository
+
+### Day 2 (15.02.2022)
+* Questions and Answers
+* Styling of elements
+* Integration CSS-File
+* First explanation mobile first pattern
+
+### Day 3 (16.02.2022)
+* Integration Bootstrap
+* CSS-Styling
+
+### Day 4 (17.02.2022)
+* Resolve styling-problems CSS
+* Integration of mobile design
+* Add animation (CSS) -- percentage bar
+* Debugging Session
+
+### Day 5 (17.02.2022)
+* Screen Design for next screen size (tablet - 768px AND bigger - mobile first)
+* Explanation Media-Queries
+* JS - show/hide elements, different events
+* add eventListener to show scrollTopBtn when user is scrolling
