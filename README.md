@@ -1,7 +1,7 @@
 # Basic Code Camp 02/2022
 
 ## Project Description
-The main goal of this project is to create a static CV-Template.
+The main goal of this project is to create a static CV-Template, add design using CSS and some functionality using JS. 
 
 ### Speaker
 Vladislav Riemer v.riemer@dotsource.de
